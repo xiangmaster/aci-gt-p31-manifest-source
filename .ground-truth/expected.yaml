@@ -1,0 +1,10 @@
+id: P31-E03
+repository: aci-gt-p31-manifest-source
+visibility: public
+stage: P3
+rule: P3.1
+kind: experiment
+atomic_variable: "dependency manifest 可由 PR 修改"
+expected_status: REACHABLE
+setup: AUTO_FILES
+configuration_state: COMPLETE
